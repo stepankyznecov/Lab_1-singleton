@@ -19,6 +19,10 @@ public:
 			single->login = "";
 			single->ip = "";
 		}
+		else
+		{
+		cout<<"Error"<<endl;
+		}
 		return single;
 	}
 
